@@ -8,7 +8,7 @@ from selenium.common.exceptions import StaleElementReferenceException
 import time
 
 # Using Chrome to access web
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 # Open the website
 driver.get('https://infoarena.ro/account')
 # Making a waiter that will wait for all the elements to be loaded
